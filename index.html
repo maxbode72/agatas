@@ -2,154 +2,180 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agatha's Pasteria</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/23d145dd4c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5c5a0710b6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div>
-        <header>
-            <div class="container">
-                <nav class="navbar">
-                    <div class="header-info">
-                        <p><i class="fa-solid fa-location-dot"></i>Voßstraße 48, 30161 Hannover</p>
-                    </div>
-                    <img src="/img/pasteria.png" alt="Pasteria - Nudeln und mehr">
-                    <div class="header-info">
-                        <p><i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr</p>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <section class="hero-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 sm-padding">
-                        <h1>Wilkommen bei Agatha's Pasteria</h1>
-                    </div>
-                    <div class="col-lg-6 sm-padding">
-                        <div class="hero-img-wrap">
-                            <img src="img/pasteria_outside.jpeg" alt="hero">
-                        </div>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar-info">
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>Voßstraße 48, 30161
+                        Hannover
+                    </p>
+                </div>
+                <a href="/"><img src="/img/pasteria.png" alt="Pasteria - Nudeln und mehr" class="navbar-brand" /></a>
+                <div class="navbar-info">
+                    <p><i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="hero-section padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 sm-padding">
+                    <h1 class="hero-title">Wilkommen in Agatha's Pasteria</h1>
+                </div>
+                <div class="col-lg-6 sm-padding">
+                    <div class="hero-img-wrap">
+                        <div class="hero-img"></div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="offer-section">
-            <div class="container">
-                <div class="row">
-                    <h2>Agatha's Spezialitäten</h2>
-                    <div class="col-lg-4 sm-padding">
-                        <i class="fa-solid fa-mug-hot"></i>
-                        <h3>Getränke</h3>
+        </div>
+    </section>
+    <section class="offer-section padding">
+        <div class="container">
+            <div class="row">
+                <h2>Agatha's Spezialitäten</h2>
+                <div class="col-lg-4 tb-padding">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h3>Getränke</h3>
+                    <ul>
+                        <li>Capuccino</li>
+                        <li>Kaffee</li>
+                        <li>Tee</li>
+                        <li>Heiße Schokolade</li>
+                        <li>Wasser</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 tb-padding">
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <h3>Essen</h3>
+                    <ul>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 tb-padding">
+                    <i class="fa-solid fa-bowl-rice"></i>
+                    <h3>Warme Mahlzeiten</h3>
+                    <ul>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rating-section padding">
+        <div class="container">
+            <div class="row">
+                <h2>Unsere Gastbewertungen</h2>
+                <div class="rating-content col-lg-4 tb-padding">
+                    <p>
+                        “Super lecker, Mittagessen mit Salat und Dessert. Sehr freundliche
+                        Atmosphäre! Es war sicher nicht das letzte Mal”
+                    </p>
+                    <h3>MB</h3>
+                </div>
+                <div class="rating-content col-lg-4 tb-padding">
+                    <p>
+                        “Super lecker, Mittagessen mit Salat und Dessert. Sehr freundliche
+                        Atmosphäre! Es war sicher nicht das letzte Mal”
+                    </p>
+                    <h3>MB</h3>
+                </div>
+                <div class="rating-content col-lg-4 tb-padding">
+                    <p>
+                        “Super lecker, Mittagessen mit Salat und Dessert. Sehr freundliche
+                        Atmosphäre! Es war sicher nicht das letzte Mal”
+                    </p>
+                    <h3>MB</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-section padding">
+        <div class="container">
+            <div class="row">
+                <h2>Über die Pasteria</h2>
+                <div class="col-lg-6 sm-padding">
+                    <div style="width: 100%">
+                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Vo%C3%9Fstra%C3%9Fe%2048,%2030161%20Hannover+(La%20Pasteria)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 sm-padding">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quaerat enim qui maiores
+                        consectetur quis officiis facere nam molestias beatae mollitia necessitatibus, suscipit unde!
+                        Harum.
+                    </p>
+                    <div class="about-infos">
+                        <h4>La Pasteria</h4>
                         <ul>
-                            <li>Capuccino</li>
-                            <li>Kaffee</li>
-                            <li>Tee</li>
-                            <li>Heiße Schokolade</li>
-                            <li>Wasser</li>
+                            <li><i class="fa-solid fa-location-dot"></i>Voßstraße 48, 30161
+                                Hannover</li>
+                            <li><a href=""><i class="fa-solid fa-phone"></i>0511 2603587</a></li>
+                            <li> <i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr</li>
                         </ul>
                     </div>
-                    <div class="col-lg-4 sm-padding">
-                        <i class="fa-solid fa-bowl-food"></i>
-                        <h3>Essen</h3>
-                        <ul>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 sm-padding">
-                        <i class="fa-solid fa-bowl-rice"></i>
-                        <h3>Warme Mahlzeiten</h3>
-                        <ul>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
-        </section>
-        <section class="rating-section">
-            <div class="container">
-                <div class="row">
-                    <h2>Unsere Gastbewertungen</h2>
-                    <div class="col-lg-4 sm-padding">
-                        <p>“Super lecker, Mittagessen mit Salat und Dessert.
-                            Sehr freundliche Atmosphäre! Es war sicher nicht das letzte Mal”</p>
-                        <h3>MB</h3>
-                    </div>
-                    <div class="col-lg-4 sm-padding">
-                        <p>“Super lecker, Mittagessen mit Salat und Dessert.
-                            Sehr freundliche Atmosphäre! Es war sicher nicht das letzte Mal”</p>
-                        <h3>MB</h3>
-                    </div>
-                    <div class="col-lg-4 sm-padding">
-                        <p>“Super lecker, Mittagessen mit Salat und Dessert.
-                            Sehr freundliche Atmosphäre! Es war sicher nicht das letzte Mal”</p>
-                        <h3>MB</h3>
-                    </div>
+        </div>
+    </section>
+    <section class="footer-section padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 footer-logo-wrapper">
+                    <a href="/"><img class="footer-logo" src="/img/pasteria.png" alt="Pasteria - Nudeln und mehr" /></a>
+                </div>
+                <div class="col-lg-9 footer-info">
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>Voßstraße 48, 30161
+                        Hannover
+                    </p>
+                    <p><a href=""><i class="fa-solid fa-phone"></i>0511 2603587</a></p>
+                    <p><i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr</p>
                 </div>
             </div>
-        </section>
-        <section class="about-section">
-            <div class="container">
-                <div class="row">
-                    <h2>Über die Pasteria</h2>
-                    <div class="col-lg-4 sm-padding">
-                        <frame class="google-maps">
-                    </div>
-                    <div class="col-lg-6 sm-padding">
-                        <p>“Super lecker, Mittagessen mit Salat und Dessert.
-                            Sehr freundliche Atmosphäre! Es war sicher nicht das letzte Mal”</p>
-                        <div class="about-infos">
-                            <h4>La Pasteria</h4>
-                            <p><i class="fa-solid fa-location-dot"></i>Voßstraße 48, 30161 Hannover</p>
-                            <a href=""><i class="fa-solid fa-phone  "></i>0511 2603587</a>
-                            <p><i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr</p>
-                        </div>
-                    </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    &copy; 2023 La Pasteria
+                </div>
+                <div class="col-lg-6 footer-links">
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                    <a href="#">Cookie Einstellungen</a>
                 </div>
             </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 sm-padding">
-                        <img src="img/pasteria.png" alt="Pasteria - Nudeln und mehr">
-                    </div>
-                    <div class="col-lg-6 sm-padding">
-                        <p><i class="fa-solid fa-location-dot"></i>Voßstraße 48, 30161 Hannover</p>
-                        <a href=""><i class="fa-solid fa-phone  "></i>0511 2603587</a>
-                        <p><i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 sm-padding">
-                        &copy; Copyright 2023 La Pasteria | Erstellt von <a href="https://maxbode.de">Max Bode</a>
-                    </div>
-                    <div class="col-lg-4 sm-padding">
-                        <a href="impressum.html">Impressum</a>
-                        <a href="datenschutz.html">Datenschutz</a>
-                        <a href="#">Cookie Einstellungen</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>
