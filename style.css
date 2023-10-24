@@ -296,3 +296,7 @@ footer {
         margin-top: 2em;
     }
 }
+
+.active {
+    color: var(--primary) !important;
+}
