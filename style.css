@@ -98,11 +98,15 @@ a:focus {
 }
 
 .tb-padding {
-    padding: 2em 0;
+    padding-block: 2em;
 }
 
 .padding {
     padding: 5em 0;
+}
+
+.pt-150 {
+    padding-top: 150px;
 }
 
 .bg-lighter {
@@ -202,7 +206,7 @@ a:focus {
 }
 .navbar {
     justify-content: center;
-    padding-block: 2rem;
+    padding-block: .5rem;
 }
 }
 
