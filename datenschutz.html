@@ -4,54 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agata's Pasteria</title>
-
-    <link rel="stylesheet" href="style.css">
-
+    <title>Datenschutz | Agatas Pasteria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/5c5a0710b6.js" crossorigin="anonymous"></script>
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/c97e60c979.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Vollkorn:wght@400;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbar">
+        <nav class="navbar fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="/img/pasteria.png" width="auto" height="60" alt="">
+                <a class="navbar-brand" href="/">
+                    <img src="/img/pasteria-logo.svg" width="auto" height="40" alt="Pasteria Logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                    aria-bs-controls="navbarToggler" aria-bs-expanded="false" aria-bs-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" style="fill: white !important;"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Start</a>
+                <div class="info-container">
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#about-section">Über uns</a>
+                        <li class="info-item">
+                            <a href="tel:+4905112603587"><i class="fa-solid fa-phone"></i>0511 2603587</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#menu-section">Menü</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#rating-section">Bewertungen</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#contact-section">Kontakt</a>
+                        <li class="info-item">
+                            <a href="https://www.google.com/maps/place/La+Pasteria/@52.3898976,9.743776,15z/data=!4m2!3m1!1s0x0:0xa4c8b126e79343ec?sa=X&ved=2ahUKEwi9haihr5aDAxVASvEDHY9vAIoQ_BJ6BAhPEAA"
+                                target="_blank"><i class="fa-solid fa-location-dot"></i>Voßstraße 48 30161
+                                Hannover</a>
                         </li>
                     </ul>
+                </div>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Pasteria</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Start</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html#menu-section">Menü</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html#rating-section">Gastbewertungen</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html#gallery-section">Gallerie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html#contact-section">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="pt-150 padding">
+    <section class="section-content">
         <div class="container">
             <div class="row">
                 <h2>Datenschutz</h2>
@@ -59,37 +81,24 @@
             </div>
         </div>
     </section>
-    <section class="footer-section padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 footer-logo-wrapper">
-                    <a href="/"><img class="footer-logo" src="/img/pasteria.png" alt="Pasteria - Nudeln und mehr" /></a>
-                </div>
-                <div class="col-lg-9 footer-info">
-                    <p>
-                        <i class="fa-solid fa-location-dot"></i>Voßstraße 48, 30161
-                        Hannover
-                    </p>
-                    <p><a href=""><i class="fa-solid fa-phone"></i>0511 2603587</a></p>
-                    <p><i class="fa-solid fa-calendar"></i>Mo - Fr: 8:00 - 15:00 Uhr</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    &copy; 2023 Pasteria
-                </div>
-                <div class="col-lg-6 footer-links">
-                    <a href="impressum.html">Impressum</a>
-                    <a class="active" href="datenschutz.html">Datenschutz</a>
-                    <a href="#">Cookie Einstellungen</a>
+                <div class="footer-container">
+                    <div class="col-lg-6">&copy; 2023 Pasteria</div>
+                    <div class="col-lg-6 footer-links">
+                        <a href="impressum.html" class="active">Impressum</a>
+                        <a href="datenschutz.html">Datenschutz</a>
+                        <a href="#">Cookie Einstellungen</a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
