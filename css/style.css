@@ -85,6 +85,12 @@ a:focus {
   text-decoration: none;
 }
 
+@media screen and (min-width: 991px) {
+  .mt {
+    margin-top: 40px;
+  }
+}
+
 .section-line {
   border: 1px solid var(--primary);
   margin: 0 auto 16px;
@@ -303,7 +309,7 @@ a:focus {
     .gallery-img {
       -moz-box-flex: 0;
       flex: 0 0 48%;
-      margin: 5px 0;
+      margin: 13px 0;
     }
 }
 
