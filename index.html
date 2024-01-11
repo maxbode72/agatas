@@ -4,27 +4,23 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ihr kleines stück sizilien in der List. Auch to go!">
+    <meta name="description" content="Ihr kleines Stück Sizilien in der List. Auch to go!">
+
+    <link rel="canonical" href="https://www.agatas-pasteria.de">
 
     <meta property="og:title" content="Agatas Pasteria">
-    <meta property="og:description" content="Ihr kleines stück sizilien in der List. Auch to go!">
-    <meta property="og:url" content="https://agata.maxbode.de" />
-    <meta property="og:image" content="https://agata.maxbode.de/img/Pasteria_seatview_16x9.webp" />
+    <meta property="og:description" content="Ihr kleines Stück Sizilien in der List. Auch to go!">
+    <meta property="og:url" content="https://agatas-pasteria.de" />
+    <meta property="og:image" content="https://agatas-pasteria.de/assets/img/Pasteria_seatview_16x9-min.webp" />
     <meta property="og:type" content="website" />
 
-    <title>Agatas Pasteria</title>
-
-    <!-- <link rel="canonical" href="https://agata.maxbode.de"> -->
+    <title>Agatas Pasteria | Ihr kleines Stück Sizilien in der List. Auch to go!</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <script src="https://kit.fontawesome.com/c97e60c979.js" crossorigin="anonymous"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Vollkorn:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/style.css" />
 </head>
@@ -58,25 +54,28 @@
                 <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Pasteria</h5>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#hero-section">Start</a>
+                                <a class="nav-link active" aria-current="page" href="#start">Start</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#menu-section">Menü</a>
+                                <a class="nav-link" href="#agatas-spezialitäten">Agatas Spezialitäten</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#rating-section">Gastbewertungen</a>
+                                <a class="nav-link" href="#gästebewertungen">Gästebewertungen</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#gallery-section">Gallerie</a>
+                                <a class="nav-link" href="#gallerie">Gallerie</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact-section">Kontakt</a>
+                                <a class="nav-link" href="#über-die-pasteria">Über die Pasteria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#kontakt">Kontakt</a>
                             </li>
                         </ul>
                     </div>
@@ -85,7 +84,7 @@
         </nav>
     </header>
     <section class="hero-section" data-bs-spy="scroll" data-bs-target="#navbar">
-        <div class="container" id="hero-section">
+        <div class="container" id="start">
             <div class="hero-main row align-items-center">
                 <div class="col-lg-12">
                     <h1 class="hero-title">Agatas Pasteria</h1>
@@ -97,14 +96,15 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <img src="assets//img/Pasteria_seatview_16x9-min.webp" alt="Pasteria"
+                    <img src="assets//img/Pasteria_seatview_16x9-min.webp"
+                        alt="Bild von der Pasteria wie sie von außen zu sehen ist"
                         class="hero-img d-block mx-lg-auto img-fluid">
                 </div>
             </div>
         </div>
     </section>
     <section class="offer-section" data-bs-spy="scroll" data-bs-target="#navbar">
-        <div class="container" id="menu-section">
+        <div class="container" id="agatas-spezialitäten">
             <div class="row">
                 <hr class="section-line">
                 <h2 class="section-title">Agatas Spezialitäten</h2>
@@ -120,6 +120,8 @@
                         <li>Tee</li>
                         <li>Cacao</li>
                     </ul>
+                    <p style="color: gray; font-size: .75rem; margin-top: 2em;">* Zum Schutz der Umwelt auch im
+                        Pfandbecher erhältlich</p>
                 </div>
                 <div class="col-lg-4 menu-container">
                     <h3>Getränke</h3>
@@ -143,17 +145,17 @@
                         <li>Käse - Spinat Ravioli</li>
                         <li>Lachs Ravioli</li>
                         <li>Steinpilz Ravioli</li>
-                        <li>Gnocchie Caprese</li>
-                        <li>Penne Arrabiata</li>
+                        <li>Gnocchi Caprese</li>
+                        <li>Penne Arrabbiata</li>
                         <li>Tortellini Bolognese</li>
                         <li>Tortellini Schinken-Sahne</li>
                         <li>Lasagna</li>
                         <li>Spaghetti Napoli</li>
                         <li>Spaghetti Bolognese</li>
-                        <li>Bandnudel Salbei</li>
+                        <li>Bandnudeln Salbei</li>
                         <li>Gnocchi Gorgonzola</li>
-                        <li>Bandnudel Funghi</li>
-                        <li>Bandnudel Gorgonzola</li>
+                        <li>Bandnudeln Funghi</li>
+                        <li>Bandnudeln Gorgonzola</li>
                     </ul>
                 </div>
             </div>
@@ -161,32 +163,32 @@
                 <div class="col-lg-4 menu-container">
                     <h3>Mittagstisch</h3>
                     <ul>
-                        <li>Wechselt täglich</li>
-                        <li>...a sporto (zum mitnehmen)</li>
+                        <li>...täglich wechselnd</li>
+                        <li>...d'asporto (zum Mitnehmen)</li>
                         <li>...da preparare a casa (zum Zuhause kochen)</li>
                     </ul>
                 </div>
                 <div class="col-lg-8 menu-container">
                     <h3>Familienspezialitäten</h3>
                     <ul>
-                        <li>Spaghetti Alfio (Papas Liebling mit Aglio, Olio et Peperoncino)</li>
+                        <li>Spaghetti Alfio (Papas Liebling mit aglio, olio et peperoncino)</li>
                         <li>Spaghetti Mamma (nach Mammas Rezept, einfach lecker!)</li>
-                        <li>Pasta ala Nonno (Oma kochte sie immer wenn wir nach Sizilien fuhren um Urlaub zu machen)
+                        <li>Pasta alla Nonna (Oma kochte sie immer wenn wir nach Sizilien fuhren um Urlaub zu machen)
                         </li>
-                        <li>Pasta con Salcsicia del Pepe (Kreation von Papa)</li>
+                        <li>Pasta con Salsiccia del Papà (Kreation von Papà)</li>
                         <li>Ravioli Carmelina (Ravioli mit Spinat- Carmela mochte keinen Spinat, Mamma hat gesagt es sei
                             Eisbergsalat statt Spinat...)</li>
-                        <li>Penne Agata (Arrabiata verfeinert mit Kapern- sehr lecker)</li>
+                        <li>Penne Agata (Arrabbiata verfeinert mit Kapern - sehr lecker)</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
     <section class="rating-section" data-bs-spy="scrolls" data-bs-target="#navbar">
-        <div class="container" id="rating-section">
+        <div class="container" id="gästebewertungen">
             <div class="row">
                 <hr class="section-line">
-                <h2 class="section-title">Gastbewertungen</h2>
+                <h2 class="section-title">Gästebewertungen</h2>
                 <div id="rating-carousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -213,7 +215,7 @@
 
                             <p class="d-block">"Bin jeden Morgen auf dem Weg zur Arbeit dran vorbei gefahren. Heute
                                 endlich mal getestet. Echte traditionelle italienische Küche, Mittagstisch war sehr gut
-                                & preislich absolut fair!
+                                &amp; preislich absolut fair!
                                 Wenn man den Laden betritt fühlt man sich wie auf/in Sizilien/Italien! :)
 
                                 Mhmmm Che Bono!"</p>
@@ -228,7 +230,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
 
-                            <p class="d-block">"Ein kleines nettes Bistro mit einem sehr leckeren Angebot.<br>Immer frisch zubereitet!"</p>
+                            <p class="d-block">"Ein kleines nettes Bistro mit einem sehr leckeren Angebot.<br>Immer
+                                frisch zubereitet!"</p>
                             <h4 class="carousel-title">- Malte S.</h4>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
@@ -240,7 +243,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
 
-                            <p class="d-block">"Nette kleine Pasteria. Sehr leckeres Essen. Sehr schneller Service. Gute Preise."</p>
+                            <p class="d-block">"Nette kleine Pasteria. Sehr leckeres Essen. Sehr schneller Service. Gute
+                                Preise."</p>
                             <h4 class="carousel-title">- Ellen C.</h4>
                         </div>
                     </div>
@@ -259,7 +263,7 @@
         </div>
     </section>
     <section class="gallery-section" data-bs-spy="scroll" data-bs-target="#navbar">
-        <div class="container" id="gallery-section">
+        <div class="container" id="gallerie">
             <div class="row">
                 <hr class="section-line">
                 <h2 class="section-title">Gallerie</h2>
@@ -267,22 +271,31 @@
                     <div class="gallery-wrapper">
                         <div class="gallery-container">
                             <div class="gallery-img">
-                                <img src="assets/img/pasteria-pellegrino_stand-min.webp" alt="" loading="lazy">
+                                <img src="assets/img/pasteria-pellegrino_stand-min.webp"
+                                    alt="Stehtisch mit zwei belegten Brötchen und Getränken vor der Pasteria"
+                                    loading="lazy">
                             </div>
                             <div class="gallery-img">
-                                <img src="assets/img/pasteria-coffee-min.webp" alt="" loading="lazy">
+                                <img src="assets/img/pasteria-coffee-min.webp"
+                                    alt="Kaffee und Snack auf einem Tisch vor der Pasteria" loading="lazy">
                             </div>
                             <div class="gallery-img">
-                                <img src="assets/img/pasteria-pellegrino-min.webp" alt="" loading="lazy">
+                                <img src="assets/img/pasteria-pellegrino-min.webp"
+                                    alt="Ein Glas mit einer Flasche Pellegrino auf einem Tisch vor der Pasteria"
+                                    loading="lazy">
                             </div>
                             <div class="gallery-img">
-                                <img src="assets/img/pasteria-seatview-min.webp" alt="" loading="lazy">
+                                <img src="assets/img/pasteria-seatview-min.webp"
+                                    alt="Aussicht von einem der Tische vor der Pasteria im Sommer" loading="lazy">
                             </div>
                             <div class="gallery-img">
-                                <img src="assets/img/pasteria_outside-min.webp" alt="" loading="lazy">
+                                <img src="assets/img/pasteria_outside-min.webp"
+                                    alt="Bild von der Pasteria wie sie von außen zu sehen ist" loading="lazy">
                             </div>
                             <div class="gallery-img">
-                                <img src="assets/img/pasteria-tableview-min.webp" alt="" loading="lazy">
+                                <img src="assets/img/pasteria-tableview-min.webp"
+                                    alt="Ein Glas mit einer Flasche Pellegrino auf einem Tisch vor der Pasteria"
+                                    loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -290,38 +303,63 @@
             </div>
         </div>
     </section>
+    <section class="about-section" data-bs-spy="scroll" data-bs-target="#navbar">
+        <div class="container" id="über-die-pasteria">
+            <div class="row">
+                <hr class="section-line">
+                <h2 class="section-title">Über die Pasteria</h2>
+                <div class="col-lg-12">
+                    <div class="row about-wrapper">
+                        <div class="col-lg-4" style="justify-content: center; margin: 0 auto; display: flex;">
+                            <img src="assets/img/pasteria_mama-papa-square.webp" alt="Mama Grazia & Papà Alfio"
+                                class="about-img">
+                        </div>
+                        <div class="col-lg-8">
+                            <p>
+                                Die Pasteria öffnete unter Agatas Leitung am 05.01.1996 ihre Pforten. Die Küche stand
+                                von
+                                Anfang an unter Mamma Grazias Kommando.
+                                Mutter und Tochter wurden im Hintergrund von Papà Alfio und den weiteren Töchtern
+                                Ionella,
+                                Isabella und Patrizia unterstützt -
+                                la famiglia resta unita. Heute schauen Mama und Papà voller Stolz aus dem Himmel auf
+                                Agata und ihre Pasteria...<br>
+                                <br>
+                                Schauen Sie gerne einmal herein - wir bieten Ihnen auch mit Liebe zusammengestellte
+                                Platten, Menüs und Präsentkörbe für den Genuss daheim.
+                                Holen Sie sich ein kleines Stück Sizilien zu sich nach Hause!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="contact-section" data-bs-spy="scroll" data-bs-target="#navbar">
-        <div class="container">
+        <div class="container" id="kontakt">
             <div class="row">
                 <hr class="section-line">
                 <h2 class="section-title">Kontakt</h2>
                 <div class="col-lg-12">
                     <div class="map-wrapper">
-                        <a
-                            href="https://www.google.com/maps/place/La+Pasteria/@52.3898976,9.743776,15z/data=!4m2!3m1!1s0x0:0xa4c8b126e79343ec?sa=X&ved=2ahUKEwi9haihr5aDAxVASvEDHY9vAIoQ_BJ6BAhPEAA">
-                            <div class="iframe-container">
-                                <iframe class="iframe-responsive" width="100%" height="400" frameborder="0"
-                                    loading="lazy" scrolling="no" marginheight="0" marginwidth="0"
-                                    title="Google Maps Standort der Pasteria"
-                                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Vo%C3%9Fstra%C3%9Fe%2048,%2030161%20Hannover+(La%20Pasteria)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                            </div>
-                        </a>
+                        <div class="iframe-container">
+                            <iframe class="iframe-responsive" width="100%" height="400" frameborder="0" loading="lazy"
+                                scrolling="no" marginheight="0" marginwidth="0"
+                                title="Google Maps Standort der Pasteria"
+                                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=La%20Pasteria,%20Vo%C3%9Fstra%C3%9Fe%2048,%2030161%20Hannover+(Pasteria)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="row contact-wrapper">
                         <div class="col-lg-4 contact-box">
-                            <h3 class="contact-title">Über die Pasteria</h3>
+                            <h3 class="contact-title">Anfahrt</h3>
                             <p>
-                                Die Pasteria öffnete unter Agatas Leitung am 05.01.1996 ihre Pforten. Die Küche stand
-                                von
-                                Anfang an unter "Mama Grazias" Kommando.
-                                Mutter und Tochter wurden im Hintergrund von Papa Alfio und den weiteren Töchtern
-                                Jonella,
-                                Isabella und Patricia unterstützt -
-                                la famiglia resta unita...<br>
+                                Sie erreichen uns zu Fuß, mit dem Fahrrad, mit dem Auto (begrenzte Parkmöglichkeiten)
+                                oder
+                                auch mit dem Bus der Linie 128 (Haltestelle Jakobi-/Voßstraße).<br>
                                 <br>
-                                Heute schauen Mama und Papa voller Stolz aus dem Himmel auf Agata und ihre Pasteria!
+                                Wir freuen uns auf Ihren Besuch!
                             </p>
                         </div>
                         <div class="col-lg-4 contact-box">
@@ -382,9 +420,11 @@
         <div class="container">
             <div class="row">
                 <div class="footer-container">
-                    <div class="col-lg-6">&copy; 2023 Pasteria</div>
+                    <div class="col-lg-6">&copy; 2024 Pasteria</div>
                     <div class="col-lg-4 footer-links">
                         <a href="impressum.html">Impressum</a>
+                        <a href="datenschutz.html">Datenschutz</a>
+                        <a href="#" id="open_preferences_center">Cookie Einstellungen</a>
                     </div>
                 </div>
             </div>
@@ -396,5 +436,20 @@
         crossorigin="anonymous"></script>
 
 </body>
+
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js"
+    charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+        cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "light", "language": "de", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "Agatas Pasteria", "website_privacy_policy_url": "https://agatas-pasteria.de/datenschutz" });
+    });
+</script>
+
+<!-- Bootstrap -->
+<script type="text/plain" data-cookie-consent="strictly-necessary"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<!-- end of Bootstrap-->
 
 </html>

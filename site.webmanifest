@@ -1,0 +1,10 @@
+{
+    "name": "Agatas Pasteria | Ihr kleines Stück Sizilien in der List. Auch to go!",
+    "short_name": "Agatas Pasteria",
+    "lang": "de-de",
+    "start_url": "/",
+    "scope": "/",
+    "theme_color": "#ff6b6b",
+    "background_color": "#efeff1",
+    "display": "standalone"
+}

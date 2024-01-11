@@ -13,6 +13,20 @@
   --danger: #dc3545;
 }
 
+@font-face {
+  font-family: "Karla";
+  src: url("/assets/fonts/Karla-VariableFont_wght.ttf") format("truetype supports variations"),
+       url("/assets/fonts/Karla-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 200 800;
+}
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("/assets/fonts/Vollkorn-VariableFont_wght.ttf") format("truetype supports variations"),
+       url("/assets/fonts/Vollkorn-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 400 900;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -31,6 +45,13 @@ body {
 
 section {
     margin-bottom: 132px;
+}
+
+@media (max-width: 575px) {
+  section {
+    margin-bottom: 100px;
+  }
+  
 }
 
 h1,
@@ -138,6 +159,10 @@ a:focus {
 
 .navbar-collapse {
   justify-content: flex-end;
+}
+
+.offcanvas {
+  width: 75dvw !important;
 }
 
 .nav {
@@ -259,9 +284,35 @@ a:focus {
 
 /* RATING SECTION */
 
+.rating-section {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 575px) {
+  .rating-section {
+    margin-bottom: 65px;
+  }
+  
+}
+
 .carousel-item {
   margin-block: 32px;
   text-align: center;
+  width: 100%;
+  min-height: 220px;
+}
+
+
+@media (max-width: 760px) {
+  .carousel-item {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 441px) {
+  .carousel-item {
+    min-height: 275px;
+  }
 }
 
 .carousel-title {
@@ -275,7 +326,7 @@ a:focus {
 .carousel-item p {
   margin: 0 auto;
   margin-block: 24px;
-  max-width: 70ch;
+  max-width: 75ch;
 }
 
 .carousel-item .score i {
@@ -318,6 +369,32 @@ a:focus {
       -moz-box-flex: 0;
       flex: 0 0 32%;
     }
+}
+
+/* about SECTION */
+
+
+
+.about-img {
+  max-height: 275px;
+  border-radius: 100vmax;
+}
+
+.about-section p{
+  max-width: 75ch;
+}
+
+@media (min-width: 992px) {
+  .about-wrapper {
+      flex-direction: row;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-wrapper {
+      gap: 3rem;
+      text-align: center;
+  }
 }
 
 /* contact SECTION */
